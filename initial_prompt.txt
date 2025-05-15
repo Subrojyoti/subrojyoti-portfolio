@@ -1,0 +1,57 @@
+Act as a world-class web designer specializing in futuristic portfolio websites with story-driven experiences. Given the following context, criteria, and instructions, create a structured layout for a portfolio website that utilizes premium animations and a scrollytelling approach to engage visitors.
+
+
+
+## Context
+
+The portfolio website aims to present an individual's professional journey, skills, and work in a captivating and interactive manner, integrating animations and scrolling effects to enhance user engagement.
+
+
+
+## Approach
+
+1. **Hero / Introduction**: Design an eye-catching animated introduction featuring the user's name and profession. Utilize bold, futuristic typography and motion effects to establish an engaging tone.
+
+2. **About Me / Personal Story**: Craft a brief narrative about the individual's background and approach, incorporating subtle animations or parallax effects as visitors scroll to unveil the story.
+
+3. **Skills & Expertise**: Develop an interactive display of core skills and tools, utilizing dynamic icons, progress bars, and microinteractions to convey a tech-savvy essence.
+
+4. **Featured Projects / Portfolio**: Highlight selected works with immersive visuals and animated transitions, structured as mini-stories that cover challenges, processes, solutions, and results. Employ layering effects and horizontal scrolling for added depth.
+
+5. **Process / How I Work**: Illustrate the creative or technical process through step-by-step animations or timelines, showcasing professionalism and transparency.
+
+6. **Testimonials / Social Proof**: Integrate animated quotes or sliding carousels that feature testimonials from clients or collaborators, possibly including logos or short video snippets for credibility.
+
+7. **Achievements / Awards**: Present animated badges or timelines to emphasize milestones, awards, or certifications.
+
+8. **Contact / Call to Action**: Design a futuristic, interactive contact form with glowing buttons, hover effects, and subtle motion to prompt user engagement.
+
+
+
+## Response Format
+
+The output should be a well-defined outline with headings for each section and descriptions of the functionalities, animations, and interactive elements that will be included. Each section should be visually distinct yet cohesive to the overall theme of futurism.
+
+
+
+## Instructions
+
+- Incorporate detailed design and animation tips, emphasizing the application of scrollytelling to reveal content dynamically.
+
+- Recommend a cohesive futuristic color palette and typography to promote brand consistency.
+
+- Mention optional enhancements, such as a blog for insights, a downloadable resume feature, hidden animations for engagement, and carefully integrated audio elements for a comprehensive experience.
+
+- Ensure the layout is intuitive and user-friendly, guiding visitors seamlessly through the narrative of the portfolio.
+
+
+
+NB: USE FRAMER MOTION.
+
+FYI: You'll have to use NEXTJS latest, and all latest components (read official documentation if required).
+
+
+
+I'll tell you all the necessary details like my skills, projects and other stuffs later.
+
+You just ask me what is currently necessary to build the backbone of the portfolio website. Also try to make the whole website files modular.

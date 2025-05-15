@@ -7,6 +7,7 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -14,21 +15,23 @@ const config: Config = {
         'cyber-black': '#0D0D0D',       // Alternative Primary
         'electric-teal': '#00F5D4',     // Secondary
         'neon-purple': '#7B00F5',       // Alternative Secondary
+        'cyber-pink': '#FF00AA',        // New Accent
         'glitch-white': '#F0F0F0',      // Accent
         'data-stream-grey': '#3A3A3A',  // Accent
-        'text-base-light': 'rgb(229 231 235)',   // Lighter grey for body text on dark bg
-        'text-heading-light': 'rgb(249 250 251)',// Lighter white for headings on dark bg
+        'text-base-light': '#A8B2D1',   // Lighter grey for body text on dark bg
+        'text-heading-light': '#CCD6F6',// Lighter white for headings on dark bg
+        'electric-teal-transparent': 'rgba(0, 245, 212, 0.3)', // Adjust alpha as needed
       },
       fontFamily: {
-        orbitron: ['Orbitron', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
-        'space-grotesk': ['"Space Grotesk"', 'sans-serif'], // Ensure quotes if font name has space
-        'roboto-mono': ['"Roboto Mono"', 'monospace'],
+        orbitron: ['var(--font-orbitron)'],
+        inter: ['var(--font-inter)'],
+        'space-grotesk': ['var(--font-space-grotesk)'],
+        'roboto-mono': ['var(--font-roboto-mono)'],
       },
-      animation: { // Example for custom animations if needed later
+      animation: {
         'pulse-glow': 'pulse-glow 2s infinite ease-in-out',
       },
-      keyframes: { // Example
+      keyframes: {
         'pulse-glow': {
           '0%, 100%': { boxShadow: '0 0 5px #00F5D4, 0 0 10px #00F5D4' },
           '50%': { boxShadow: '0 0 20px #00F5D4, 0 0 30px #00F5D4' },

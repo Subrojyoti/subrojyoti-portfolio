@@ -1,28 +1,26 @@
 // app/page.tsx
-// Sections will be imported here later
-// import HeroSection from '@/components/sections/HeroSection';
-// import AboutSection from '@/components/sections/AboutSection';
-// ... and so on
+import HeroSection from '@/components/sections/HeroSection';
+import AboutSection from '@/components/sections/AboutSection';
+import ProjectsSection from '@/components/sections/ProjectsSection';
+import SkillsSection from '@/components/sections/SkillsSection';
+import ProcessSection from '@/components/sections/ProcessSection';
+import TestimonialsSection from '@/components/sections/TestimonialsSection';
+import AchievementsSection from '@/components/sections/AchievementsSection';
+import ContactSection from '@/components/sections/ContactSection';
+import Navbar from '@/components/layout/Navbar';
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen">
-      {/* Placeholder for Navbar if you have one fixed at the top */}
-      {/* <Navbar /> */}
-
-      <div id="hero" className="w-full h-screen bg-space-blue flex items-center justify-center">
-        <h1 className="text-5xl font-orbitron text-electric-teal">Hero Section Placeholder</h1>
-      </div>
-      <div id="about" className="w-full min-h-screen bg-cyber-black flex items-center justify-center">
-        <h2 className="text-4xl font-orbitron text-glitch-white">About Section Placeholder</h2>
-      </div>
-      <div id="skills" className="w-full min-h-screen bg-space-blue flex items-center justify-center">
-        <h2 className="text-4xl font-orbitron text-glitch-white">Skills Section Placeholder</h2>
-      </div>
-      {/* Add more placeholder divs for other sections */}
-
-      {/* Placeholder for Footer */}
-      {/* <Footer /> */}
+    <main className="min-h-screen text-text-base-light">
+      <Navbar />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ProcessSection />
+      <TestimonialsSection />
+      <AchievementsSection />
+      <ContactSection />
     </main>
   );
 }
