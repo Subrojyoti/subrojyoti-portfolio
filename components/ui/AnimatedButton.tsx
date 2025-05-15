@@ -2,7 +2,6 @@
 'use client';
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
-import Link from 'next/link'; // Import Link for Next.js optimized navigation if href is internal
 
 interface AnimatedButtonProps {
   children: ReactNode;

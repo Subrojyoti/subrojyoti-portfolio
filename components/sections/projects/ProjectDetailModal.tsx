@@ -1,7 +1,6 @@
 // components/sections/projects/ProjectDetailModal.tsx
 'use client';
 import { motion, AnimatePresence } from 'framer-motion';
-import Image from 'next/image';
 import type { Project } from './ProjectCard'; // Import the Project type
 import AnimatedButton from '@/components/ui/AnimatedButton';
 
