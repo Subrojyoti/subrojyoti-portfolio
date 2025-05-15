@@ -2,8 +2,8 @@
 'use client';
 import { motion } from 'framer-motion';
 import type { IconType } from 'react-icons';
-import { FaReact, FaPython, FaDocker, FaGitAlt, FaAws, FaBrain, FaEye, FaSearchPlus, FaDatabase, FaLightbulb } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFlask, SiNodedotjs, SiExpress, SiMongodb, SiPostgresql, SiRedis, SiTensorflow, SiPytorch, SiFramer, SiMysql, SiCplusplus, SiC } from 'react-icons/si';
+import { FaReact, FaPython, FaDocker, FaGitAlt, FaAws, FaBrain, FaEye, FaDatabase, FaLightbulb } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFlask, SiMongodb, SiPostgresql, SiRedis, SiTensorflow, SiPytorch, SiFramer, SiMysql, SiCplusplus, SiC } from 'react-icons/si';
 // Import other icons as needed
 
 interface Skill {

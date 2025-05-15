@@ -66,7 +66,7 @@ const HeroSection = () => {
             custom={2}
             variants={textVariants}
           >
-            Architecting tomorrow's intelligent solutions, today.
+            Architecting tomorrow&apos;s intelligent solutions, today.
           </motion.p>
 
           {/* CTA Buttons */}

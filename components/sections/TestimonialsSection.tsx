@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
         >
           <p className="font-inter text-lg mb-4">
             My work experience includes a role as an AI Labeller at Borde Inc., where I focused on image annotation and model analysis.
-            I'm always eager to collaborate and build strong professional relationships.
+            I&apos;m always eager to collaborate and build strong professional relationships.
           </p>
           <p className="font-inter text-lg text-neon-purple/80">
             Testimonials from future collaborations will be featured here!
