@@ -2,8 +2,8 @@
 'use client';
 import { motion } from 'framer-motion';
 import type { IconType } from 'react-icons';
-import { FaReact, FaPython, FaDocker, FaGitAlt, FaAws, FaBrain, FaEye, FaDatabase, FaLightbulb } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiFlask, SiMongodb, SiPostgresql, SiRedis, SiTensorflow, SiPytorch, SiFramer, SiMysql, SiCplusplus, SiC } from 'react-icons/si';
+import {FaReact, FaPython, FaDocker, FaGitAlt, FaAws, FaBrain, FaEye, FaDatabase, FaLightbulb } from 'react-icons/fa';
+import { SiFastapi, SiNextdotjs, SiTailwindcss, SiTypescript, SiFlask, SiMongodb, SiPostgresql, SiRedis, SiTensorflow, SiPytorch, SiFramer, SiMysql, SiCplusplus, SiC } from 'react-icons/si';
 // Import other icons as needed
 
 interface Skill {
@@ -22,15 +22,16 @@ const skills: Skill[] = [
   { name: 'Framer Motion', level: 4, category: 'frontend', icon: SiFramer }, // Added icon
   
   // Backend
-  { name: 'Flask', level: 4, category: 'backend', icon: SiFlask },
-  { name: 'Next.js', level: 5, category: 'backend', icon: SiNextdotjs }, 
+  {name: 'FastAPI', level: 5, category: 'backend', icon: SiFastapi },
+  { name: 'Flask', level: 5, category: 'backend', icon: SiFlask },
+  { name: 'Next.js', level: 4, category: 'backend', icon: SiNextdotjs }, 
   
   // Database
   { name: 'MongoDB', level: 4, category: 'database', icon: SiMongodb },
   { name: 'PostgreSQL', level: 3, category: 'database', icon: SiPostgresql },
   { name: 'Redis', level: 3, category: 'database', icon: SiRedis },
   { name: 'MySQL', level: 3, category: 'database', icon: SiMysql }, // Added icon
-  { name: 'Weaviate', level: 3, category: 'database', icon: FaDatabase }, // Changed to FaDatabase
+  { name: 'VectorDB', level: 3, category: 'database', icon: FaDatabase }, // Changed to FaDatabase
   
   // DevOps
   { name: 'Docker', level: 4, category: 'devops', icon: FaDocker },
@@ -38,11 +39,11 @@ const skills: Skill[] = [
   { name: 'AWS', level: 3, category: 'devops', icon: FaAws },
   
   // AI/ML
+  { name: 'RAG', level: 4, category: 'ai-ml', icon: FaLightbulb },
   { name: 'TensorFlow', level: 4, category: 'ai-ml', icon: SiTensorflow },
   { name: 'PyTorch', level: 3, category: 'ai-ml', icon: SiPytorch },
   { name: 'NLP', level: 4, category: 'ai-ml', icon: FaBrain }, // Added icon
   { name: 'Computer Vision', level: 3, category: 'ai-ml', icon: FaEye }, // Added icon
-  { name: 'RAG', level: 4, category: 'ai-ml', icon: FaLightbulb }, // Changed icon to FaLightbulb
 
   // Programming Languages & Core Tech
   { name: 'C++', level: 4, category: 'languages', icon: SiCplusplus }, // Added icon
