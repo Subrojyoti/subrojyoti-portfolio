@@ -7,6 +7,30 @@ import ProjectDetailModal from './projects/ProjectDetailModal';
 
 const projectsData: Project[] = [
   {
+    id: 'ai-library-management-system',
+    title: 'AI Library Management System',
+    brief: 'A full-stack web application for managing library operations, integrating AI for natural language database query.',
+    imageUrl: '/images/projects/ai-library-management-preview.png',
+    tags: ['Python', 'FastAPI', 'React', 'AI', 'PostgreSQL', 'Docker'],
+    details: {
+      role: 'Backend Developer',
+      challenge: 'Create a comprehensive college library management system that allows librarians to manage books, students, and transactions while integrating AI for natural language database queries.',
+      process: [
+        'Requirement gathering and system design.',
+        'Backend development with FastAPI for REST APIs and database interactions.',
+        'Frontend development with React and Tailwind CSS for a responsive UI.',
+        'Integration of PostgreSQL for data storage.',
+        'Implementation of automated email notifications for overdue books using APScheduler, Fastmail through   Mailjet API.',
+        'Implementation of AI features using Gemini API for natural language queries.',
+        'Deployment using Docker for containerization.'
+      ],
+      solution: 'Developed a robust library management system that simplifies book management, student tracking, and transaction processing, and notifying students about their overdue books through automated mail, while providing an AI-powered interface for intuitive database queries.',
+      keyTech: ['Python', 'FastAPI', 'React', 'Tailwind CSS', 'PostgreSQL', 'Gemini API', 'Docker', 'Git'],
+      repoLink: 'https://github.com/Subrojyoti/AI-Library-Management-System',
+      liveLink: 'https://ai-library-management-system.vercel.app/'
+    }
+  },
+  {
     id: 'research-rover',
     title: 'Research Rover',
     brief: 'A full-stack web app for semantic research paper discovery and analysis, leveraging AI for enhanced understanding.',
@@ -25,7 +49,8 @@ const projectsData: Project[] = [
       ],
       solution: 'Developed a platform integrating advanced search capabilities with AI-driven analysis tools to streamline the research workflow, offering features like context-aware recommendations and real-time progress tracking.',
       keyTech: ['Python', 'Flask', 'React', 'Material-UI', 'CORE API', 'Gemini API', 'Sentence Transformers', 'FAISS', 'RAG', 'Git'],
-      repoLink: 'https://github.com/Subrojyoti/Research-Rover'
+      repoLink: 'https://github.com/Subrojyoti/Research-Rover',
+      liveLink: 'https://drive.google.com/file/d/1O28S-wzgcoXPutfp7eRSXEVBvrNoyroe/view?usp=sharing'
     }
   },
   {
