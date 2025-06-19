@@ -53,8 +53,8 @@ const ContactForm = () => {
 
   const inputFieldVariants = {
     focus: {
-      borderColor: 'theme(colors.electric-teal)',
-      boxShadow: '0 0 0 2px theme(colors.electric-teal-transparent)',
+      borderColor: '#3A86FF',
+      boxShadow: '0 0 0 2px rgba(58, 134, 255, 0.2)',
       transition: { duration: 0.2 }
     }
   };
