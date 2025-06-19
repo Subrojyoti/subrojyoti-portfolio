@@ -50,7 +50,7 @@ const projectsData: Project[] = [
       solution: 'Developed a platform integrating advanced search capabilities with AI-driven analysis tools to streamline the research workflow, offering features like context-aware recommendations and real-time progress tracking.',
       keyTech: ['Python', 'Flask', 'React', 'Material-UI', 'CORE API', 'Gemini API', 'Sentence Transformers', 'FAISS', 'RAG', 'Git'],
       repoLink: 'https://github.com/Subrojyoti/Research-Rover',
-      liveLink: 'https://drive.google.com/file/d/1O28S-wzgcoXPutfp7eRSXEVBvrNoyroe/view?usp=sharing'
+      liveLink: 'https://youtu.be/xyd07dT3HTg'
     }
   },
   {
@@ -78,7 +78,8 @@ const projectsData: Project[] = [
         'MRR: 19%',
         'ILS (Diversity): 71%'
       ],
-      repoLink: 'https://github.com/Subrojyoti/Diversified-News-Recommender-System'
+      repoLink: 'https://github.com/Subrojyoti/Diversified-News-Recommender-System',
+      liveLink: 'https://youtu.be/56fKjneCiZQ'
     }
   }
 ];
