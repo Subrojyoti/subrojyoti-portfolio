@@ -25,19 +25,19 @@ const achievementsData = [
     title: "Bachelor of Science, Mathematics (Honours)",
     issuer: "Darrang College, Tezpur, Assam",
     date: "2019 - 2022",
-    description: "Minor in Statistics, CGPA: 8.55/10",
+    description: "CGPA: 8.55/10",
     icon: <PlaceholderAchievementIcon type="edu" />
   },
   {
     type: "certification",
     title: "Google Data Analytics Certificate",
-    issuer: "Google",
+    issuer: "Coursera & Google",
     icon: <PlaceholderAchievementIcon type="cert" />
   },
   {
     type: "certification",
     title: "Python for Data Science",
-    issuer: "Online Platform (e.g., Coursera, IBM - specify if known)",
+    issuer: "Coursera & IBM",
     icon: <PlaceholderAchievementIcon type="cert" />
   },
   {
@@ -49,6 +49,7 @@ const achievementsData = [
   {
     type: "course",
     title: "Basics of Software Design",
+    description: "Covered Object-Oriented Programming, Design Patterns and SDLC",
     icon: <PlaceholderAchievementIcon type="cert" />
   }
 ];

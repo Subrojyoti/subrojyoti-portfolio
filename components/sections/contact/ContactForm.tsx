@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import AnimatedButton from '@/components/ui/AnimatedButton';
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { env } from '@/lib/env';
 
 interface FormData {
   name: string;
@@ -23,12 +24,23 @@ const ContactForm = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('sending');
-    // Here you would typically send the form data to a backend endpoint
-    // For this example, we'll simulate a network request
+
     try {
-      // Replace with your actual form submission logic (e.g., API call)
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      console.log('Form data submitted:', formData);
+      if (!env.FORMSPREE_ENDPOINT) {
+        throw new Error('Missing required environment variable: NEXT_PUBLIC_FORMSPREE_ENDPOINT');
+      }
+      const response = await fetch(env.FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Form submission failed');
+      }
+
       setStatus('success');
       setFormData({ name: '', email: '', message: '' }); // Clear form
       setTimeout(() => setStatus(''), 3000); // Reset status after 3s

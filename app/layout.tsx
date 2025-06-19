@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   keywords: ['AI Developer', 'Web Development', 'Machine Learning', 'Next.js', 'Framer Motion', 'Portfolio'],
   authors: [{ name: 'Subrojyoti Paul' }],
   icons: {
-    icon: '/sp-logo.png', // Link to the new PNG favicon in the public directory
+    icon: '/sp-logo.svg', // Link to the new PNG favicon in the public directory
   },
   openGraph: {
     title: 'Subrojyoti Paul | Intelligent Systems Developer',
