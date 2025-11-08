@@ -23,10 +23,10 @@ const TestimonialsSection = () => {
           transition={{ duration: 0.5, delay: 0.2, ease: 'easeOut' }}
           className="max-w-2xl mx-auto"
         >
-          <p className="font-inter text-lg mb-4">
+          {/* <p className="font-inter text-lg mb-4">
             My work experience includes a role as an AI Labeller at Borde Inc., where I focused on image annotation and model analysis.
             I&apos;m always eager to collaborate and build strong professional relationships.
-          </p>
+          </p> */}
           <p className="font-inter text-lg text-neon-purple/80">
             Testimonials from future collaborations will be featured here!
           </p>
